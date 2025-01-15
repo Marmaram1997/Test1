@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Marmaram1997.github.io/Test1/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Persian Food",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Manifest with multiple canvas about Persian food",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Maryam Fooladi",
+  "sequences" : [ {
+    "@id" : "http://65dadb1f-0994-4319-a774-600e19f96a48",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ab78cf97-e4ab-4cac-b626-48078f6db5c3",
+      "@type" : "sc:Canvas",
+      "label" : "Ghormeh Sabzi ",
+      "height" : 1200,
+      "width" : 1200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cd334c7d-2425-4bc6-805c-93750e9037cb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://marmaram1997.github.io/Test1/images/Ghormeh-Sabzi-Persian-Herb-Stew-SQ-10/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://marmaram1997.github.io/Test1/images/Ghormeh-Sabzi-Persian-Herb-Stew-SQ-10",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1200,
+          "width" : 1200
+        },
+        "on" : "http://ab78cf97-e4ab-4cac-b626-48078f6db5c3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3b7f3fa9-6418-41e7-b2c2-09d37c95dca8",
+      "@type" : "sc:Canvas",
+      "label" : "Kabab",
+      "height" : 1000,
+      "width" : 1000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://308a6ec7-a40c-43ed-b996-6af88ae2f3f2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://marmaram1997.github.io/Test1/images/Chelo-Kebab/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://marmaram1997.github.io/Test1/images/Chelo-Kebab",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1000,
+          "width" : 1000
+        },
+        "on" : "http://3b7f3fa9-6418-41e7-b2c2-09d37c95dca8"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
